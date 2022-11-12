@@ -13,7 +13,6 @@ def hello_world():
         return render_template("login.html")
     return redirect("/home")
 database={'eren':'123','osman':'123','ahmet':'123','mahmut':'456'}
-# şu anda giriş yaptığında girişi kaydediyor tarayıcıya ve eger oturum varsa ona aıt bılgıyı gosterıyor.
 
 @app.route("/home")
 def get_home():
