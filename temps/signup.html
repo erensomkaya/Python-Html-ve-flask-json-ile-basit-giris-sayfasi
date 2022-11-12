@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SignUp Page</title>
+</head>
+<body bgcolor="white">
+<p align="right"><button onclick="window.location.href = 'https://github.com/erensomkaya';"><h4>github</h4></button></p> 
+<p align="right"><button onclick="window.location.href = 'https://www.linkedin.com/in/eren-somkaya-10a143234/';"><h4>linkedin</h4></button></p> 
+
+<form action="/form_register" method="post">
+    <h2></h2>Name:<br>
+    <input type="text" name='name'><br>
+    <h2></h2>Username:<br>
+  <input type="text" name='username'><br>
+  Password:<br>
+  <input type="password" name='password' ><br><br>
+  <h2></h2>email:<br>
+  <input type="email" name='email'><br>
+  {% extends 'captcha.html' %}
+</form>
+
+<h1 >{{info}}</h1>
+
+
+</body>
+</html>
