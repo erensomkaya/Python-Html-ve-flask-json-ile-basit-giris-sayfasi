@@ -1,4 +1,4 @@
 # Login-Page-With-Flask-HTML
-A basic login page using html and flask
+Html ve flask,json ile  temel bir giriş sayfası
 
 
